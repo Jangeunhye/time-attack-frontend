@@ -1,6 +1,8 @@
 import { AxiosInstance } from "axios";
 import { ProductData, ProductsData } from "./products.response";
 
+export const revalidate = 60;
+
 class ProductsAPI {
   private coreClient: AxiosInstance;
 
