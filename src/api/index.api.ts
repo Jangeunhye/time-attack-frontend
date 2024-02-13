@@ -1,5 +1,6 @@
 import axios from "axios";
 import AuthAPI from "./auth/auth.api";
+import CartAPI from "./cart/cart.api";
 import ProductsAPI from "./products/products.api";
 
 const coreClient = axios.create({
@@ -10,6 +11,7 @@ const coreClient = axios.create({
 class API {
   static products = new ProductsAPI(coreClient);
   static auth = new AuthAPI(coreClient);
+  static cart = new CartAPI(coreClient);
 }
 
 export default API;

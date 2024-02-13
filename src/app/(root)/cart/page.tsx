@@ -1,5 +1,14 @@
+"use client";
+
+import Page from "@/components/Page";
+import CartItem from "../_components/CartItem";
+
 function CartPage() {
-  return <div>page</div>;
+  return (
+    <Page>
+      <CartItem />
+    </Page>
+  );
 }
 
 export default CartPage;
