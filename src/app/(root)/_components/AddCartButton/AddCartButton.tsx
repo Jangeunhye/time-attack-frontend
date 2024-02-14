@@ -6,7 +6,7 @@ import { useAuth } from "@/contexts/auth.context";
 import { removeProduct, updateProducts } from "@/redux/slices/cart.slices";
 import { setModal } from "@/redux/slices/utils.slice";
 import { useAppDispatch } from "@/redux/store";
-import { Product } from "@/types/product.type";
+import { Product } from "@/types/Product.type";
 import { useMutation } from "@tanstack/react-query";
 import { useState } from "react";
 

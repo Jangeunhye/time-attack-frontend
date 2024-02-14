@@ -1,4 +1,4 @@
-import { Product } from "@/types/product.type";
+import { Product } from "@/types/Product.type";
 import Image from "next/image";
 import Link from "next/link";
 import AddCartButton from "../AddCartButton";

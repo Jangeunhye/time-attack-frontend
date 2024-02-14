@@ -1,4 +1,4 @@
-import { Product } from "@/types/product.type";
+import { Product } from "@/types/Product.type";
 import { AxiosInstance } from "axios";
 
 class CartAPI {
